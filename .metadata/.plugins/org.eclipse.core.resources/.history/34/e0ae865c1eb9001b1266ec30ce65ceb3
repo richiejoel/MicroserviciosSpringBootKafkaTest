@@ -1,0 +1,8 @@
+package com.heavy.producer;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class PaymentEventProducer {
+
+}

@@ -1,0 +1,24 @@
+package com.heavy.domain;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class Operation implements Serializable {
+
+	private static final long serialVersionUID = 8332231462213127681L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id_operation")
+	private Integer idOperation;
+	@Column(name = "id_invoice")
+	private Integer idInvoice;
+	private double amount;
+	private Date dataTime;
+
+}

@@ -1,0 +1,10 @@
+package com.heavy.producer;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class PaymentEventProducer {
+	
+	String topic="transaction-events";
+
+}

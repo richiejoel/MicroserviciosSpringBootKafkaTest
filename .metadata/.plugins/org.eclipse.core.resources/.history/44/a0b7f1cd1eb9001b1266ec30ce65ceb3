@@ -1,0 +1,23 @@
+package com.heavy.producer;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.stereotype.Component;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+
+@Component
+public class PaymentEventProducer {
+	
+	private String topic="transaction-events";
+	private Logger log = LoggerFactory.getLogger(PaymentEventProducer.class);
+	
+	@Autowired
+	KafkaTemplate<Integer, String> kafkaTemplate;
+	@Autowired
+	ObjectMapper objectMapper;
+
+}

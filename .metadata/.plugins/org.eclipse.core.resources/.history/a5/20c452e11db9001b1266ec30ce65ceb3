@@ -1,0 +1,19 @@
+package com.heavy.service;
+
+import org.springframework.stereotype.Service;
+
+import com.heavy.dao.IPaymentDao;
+import com.heavy.domain.Operation;
+
+@Service
+public class PaymentServiceImpl implements IPaymentService {
+	
+	private IPaymentDao _paymentDao;
+
+	@Override
+	public Operation save(Operation operation) {
+		
+		return null;
+	}
+
+}

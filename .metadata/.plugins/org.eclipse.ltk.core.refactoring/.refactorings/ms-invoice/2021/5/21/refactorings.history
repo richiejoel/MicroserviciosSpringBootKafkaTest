@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.heavy.demo&apos; to &apos;com.heavy&apos;&#x0A;- Original project: &apos;ms-invoice&apos;&#x0A;- Original element: &apos;ms-invoice/src/main/java/com.heavy.demo&apos;&#x0A;- Renamed element: &apos;ms-invoice/src/main/java/com.heavy&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.heavy.demo&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.heavy.demo" name="com.heavy" qualified="false" references="true" stamp="1621552242586" textual="false" version="1.0"/>
+</session>

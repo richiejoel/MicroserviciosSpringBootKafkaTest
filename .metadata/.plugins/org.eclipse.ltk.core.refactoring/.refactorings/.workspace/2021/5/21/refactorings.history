@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ms-config-server&apos;" deleteContents="false" description="Delete resource &apos;ms-config-server&apos;" element1="/ms-config-server" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1621658758588"/>&#x0A;<refactoring comment="Delete resource &apos;ms-invoice&apos;" deleteContents="false" description="Delete resource &apos;ms-invoice&apos;" element1="/ms-invoice" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1621690089949"/>
+</session>

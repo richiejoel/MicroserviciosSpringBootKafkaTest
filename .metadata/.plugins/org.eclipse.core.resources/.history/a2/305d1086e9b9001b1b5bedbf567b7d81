@@ -1,0 +1,5 @@
+package com.heavy.service;
+
+public interface ITransactionService {
+
+}

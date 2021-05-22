@@ -1,0 +1,5 @@
+package com.heavy.consumer;
+
+public class ConsumerConfig {
+
+}

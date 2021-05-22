@@ -1,0 +1,11 @@
+package com.heavy.domain;
+
+import java.io.Serializable;
+
+public class Operation implements Serializable {
+
+	private static final long serialVersionUID = 8332231462213127681L;
+	
+	
+
+}

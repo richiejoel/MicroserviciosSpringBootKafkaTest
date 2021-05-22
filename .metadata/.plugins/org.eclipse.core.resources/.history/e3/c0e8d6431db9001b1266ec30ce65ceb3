@@ -1,0 +1,5 @@
+package com.heavy.dao;
+
+public interface IPaymentDao {
+
+}

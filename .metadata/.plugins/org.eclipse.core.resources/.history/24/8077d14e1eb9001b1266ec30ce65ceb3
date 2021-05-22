@@ -1,0 +1,5 @@
+package com.heavy.producer;
+
+public class PaymentEventProducer {
+
+}

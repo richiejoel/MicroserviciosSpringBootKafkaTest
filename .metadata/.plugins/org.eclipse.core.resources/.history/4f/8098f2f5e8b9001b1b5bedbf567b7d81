@@ -1,0 +1,10 @@
+package com.heavy.repository;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.heavy.entity.Transaction;
+
+public interface TransactionRepository extends MongoRepository<Transaction, String>  {
+	@Query("{'accountId':?0}")
+	public Iterable<Transaction> findByAccountId(Integer accountId);
+}

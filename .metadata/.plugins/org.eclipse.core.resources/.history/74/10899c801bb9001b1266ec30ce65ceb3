@@ -1,0 +1,5 @@
+package com.heavy.domain;
+
+public class Operation {
+
+}
